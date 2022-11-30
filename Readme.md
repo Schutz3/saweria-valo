@@ -17,7 +17,7 @@ Required before using the program code.
 4) ```npm start```
 5) Open Ngrok, add auth token if this your first time running ngrok
 6) type ```ngrok http 8080``` (depend on port that u set in index.js)
-7) open [https://saweria.co/admin/integrations](saweria) admin panel, then
+7) open [Saweria Admin Integrations](https://saweria.co/admin/integrations), then
 8) open Webhook section
 9) copy and paste forwarding url in ngrok app. eg: ```https://xxx-xxx-xxx-xxx-xxx.ap.ngrok.io```
 10) Save and Test
