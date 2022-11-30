@@ -4,9 +4,9 @@ Webhook To Get Saweria Donation Notification .
 ### Prerequisites
 Required before using the program code.
 
-* Node JS | https://nodejs.org/en/download/
-* Ngrok | https://ngrok.com/download
-* Saweria Account | https://saweria.co/admin/integrations
+* [Node JS](https://nodejs.org/en/download/)
+* [Ngrok](https://ngrok.com/download)
+* [Saweria](https://saweria.co/admin/integrations)
 
 ### Installation
 Required before using the program code.
