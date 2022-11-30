@@ -83,7 +83,7 @@ app.post("/", (request, respond) => {
 
 
         //Press Space   or JUMP
-        } else if (request.body.amount_raw > 50000 && request.body.amount_raw <= 70000) {
+        } else if (request.body.amount_raw > 50000 && request.body.amount_raw <= 90000) {
             sayText.speak('Hi, ' + request.body.donator_name+'. Thanks For Donating Me ! ');
             
             //10000ms = 10 sec
@@ -94,7 +94,7 @@ app.post("/", (request, respond) => {
     
 
         //Lock Windows
-        } else if (request.body.amount_raw < 200000 && request.body.amount_raw >= 90000) {        
+        } else if (request.body.amount_raw < 200000 && request.body.amount_raw >= 90001) {        
         sayText.speak('Warning!!, '+request.body.donator_name+' Has Launched Missile, EJECT, EJECT, Impact In');
         const { exec } = require('child_process');  
         setTimeout(() => {
